@@ -1,0 +1,2 @@
+# RMQ
+Range Minimum Query
