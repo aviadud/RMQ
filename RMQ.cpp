@@ -72,7 +72,7 @@ void RMQ::preProcess()
 		logValues[i] = std::floor(std::log2(i));
 	}
 	stopPreprocessing = std::chrono::high_resolution_clock::now();
-	std::cout << "Time took to preprocess query_v3: " << std::chrono::duration_cast<std::chrono::microseconds>(stopPreprocessing - startPreprocessing) << " microseconds" << std::endl;
+	std::cout << "Time took to preprocess for queryV4: " << std::chrono::duration_cast<std::chrono::microseconds>(stopPreprocessing - startPreprocessing) << " microseconds" << std::endl;
 	preprocessed = true;
 }
 
